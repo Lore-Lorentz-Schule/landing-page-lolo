@@ -78,18 +78,12 @@
 [type="submit"]:hover { background:#555151; }
 
 @media screen and (max-width: 800px) {
-  .feedback-input {
-    width: 70%;
-  }
   [type="submit"] {
     width: 70%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .feedback-input {
-    width: 90%;
-  }
   [type="submit"] {
     width: 90%;
   }
