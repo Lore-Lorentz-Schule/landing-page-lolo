@@ -13,8 +13,9 @@
   }
 }
 
+/* General Header Design */
 .App-header {
-  background-color: #282c34;
+  background-color: #2f3135;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,4 +24,74 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+/*
+.App-button {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 20%;
+  background:#7393B3;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+.App-button:hover { background:#062233; }
+
+@media (max-width: 800px) {
+  .App-button {
+    width: 50%;
+  }
+
+  .App-header {
+    height: 10%;
+  }
+}
+
+*/
+
+/* Submit Button Design */
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 30%;
+  background:#4e4d57;
+  border: #062233;
+  border-radius:2px;
+  border:0;
+  cursor:pointer;
+  color:rgb(255, 255, 255);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+  text-align: center;
+
+}
+[type="submit"]:hover { background:#555151; }
+
+@media screen and (max-width: 800px) {
+  .feedback-input {
+    width: 70%;
+  }
+  [type="submit"] {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .feedback-input {
+    width: 90%;
+  }
+  [type="submit"] {
+    width: 90%;
+  }
+} 
 
