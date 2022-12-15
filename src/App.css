@@ -15,7 +15,7 @@
 
 /* General Header Design */
 .App-header {
-  background-color: #2f3135;
+  background-color: #212224;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -96,7 +96,7 @@
 .footer-dark {
   padding:20px 0;
   color:#f0f9ff;
-  background-color: #414950;
+  background-color: #212224f5;
 }
 
 .footer-dark h3 {
