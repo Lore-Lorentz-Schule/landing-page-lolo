@@ -60,7 +60,7 @@ function App() {
                         </ul>
                     </div>
                 </div>
-                <p class="copyright">Developed by Aaron Wagner</p>
+                <p class="copyright"><a href='https://www.github.com/AAWA-byt'>Developed by Aaron Wagner</a></p>
                 <p class="copyright">© 2022  </p>
             </div>
         </center>
