@@ -1,4 +1,5 @@
 import './App.css';
+import lolo_logo from './lolo.png';
 
 
 // function for redirecting to documentation 
@@ -11,13 +12,32 @@ function redirect_git() {
   window.open('http://85.214.159.205:3000')
 }
 
+
+// typewriter animation 
+
+var i = 0;
+var txt = 'Willkommen auf lolo.school! Diese Website gehört der Lore Lorentz Schule. Hier findest du Links zu unserem Git-Server und einer Dokumentation für diesen.';
+var speed = 30;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("typewriter").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+
+
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>lolo.school</h1>
-        <button type="submit" onClick={redirect_doku}>Dokumentation</button>
+        <img src={lolo_logo} alt="LoLo Logo" />
+        <p id="typewriter"></p>
+        <button className='button_reveal' onClick={typeWriter}>Klick mich!</button>
         <button type="submit" onClick={redirect_git}>Git-Server</button>
+        <button type="submit" onClick={redirect_doku}>Dokumentation</button>
       </header>
 
       <div class="footer-dark">
