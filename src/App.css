@@ -25,6 +25,10 @@
   color: white;
 }
 
+img {
+  margin-bottom: 20px;
+}
+
 /*
 .App-button {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -183,10 +187,49 @@
   margin-bottom:0;
 }
 
+
+/* TypeWriter Animation Style */
+
+.button_reveal {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 30%;
+  border:2px solid #582424;
+  background-color: #58242470;
+  border-radius:2px;
+  cursor:pointer;
+  color:rgba(255, 255, 255, 0.767);
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:4px;
+  margin-bottom: 40px;
+  font-weight:700;
+  text-align: center;
+
+}
+.button_reveal:hover { 
+  border:2px solid #632727;
+  background-color: #582424a9;
+}
+
+@media screen and (max-width: 800px) {
+  .button_reveal {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .button_reveal {
+    width: 90%;
+  }
+} 
+
 #typewriter {
   font-family: monospace;
-  margin-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
+  margin-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: calc(10px + 2vmin);
 }
 
