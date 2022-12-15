@@ -187,6 +187,11 @@ img {
   margin-bottom:0;
 }
 
+.footer-dark a {
+  color:inherit;
+  text-decoration:none;
+}
+
 
 /* TypeWriter Animation Style */
 
