@@ -1,12 +1,23 @@
 import './App.css';
 
+
+// function for redirecting to documentation 
+function redirect_doku() {
+  window.open('https://dokuwiki.lolo.school');
+}
+
+// function for redirecting to git server 
+function redirect_git() {
+  window.open('http://85.214.159.205:3000')
+}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>lolo.school</h1>
-        <input type="submit" value="Dokumentation" />
-        <input type="submit" value="Git-Server" />
+        <button type="submit" onClick={redirect_doku}>Dokumentation</button>
+        <button type="submit" onClick={redirect_git}>Git-Server</button>
       </header>
 
       <div class="footer-dark">
