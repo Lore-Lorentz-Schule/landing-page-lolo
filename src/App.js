@@ -12,6 +12,11 @@ function redirect_git() {
   window.open('http://85.214.159.205:3000')
 }
 
+// function for redirecting to homepage
+function redirect_lolo() {
+  window.open('https://www.lore-lorentz-schule.de')
+}
+
 
 // typewriter animation 
 
@@ -38,6 +43,7 @@ function App() {
         <button className='button_reveal' onClick={typeWriter}>Klick mich!</button>
         <button type="submit" onClick={redirect_git}>Git-Server</button>
         <button type="submit" onClick={redirect_doku}>Dokumentation</button>
+        <button type="submit" onClick={redirect_lolo}>Lore Lorentz Schule</button>
       </header>
 
       <div class="footer-dark">
