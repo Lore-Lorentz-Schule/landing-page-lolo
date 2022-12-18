@@ -84,6 +84,7 @@ img {
 @media screen and (max-width: 800px) {
   [type="submit"] {
     width: 70%;
+    font-size: 16px;
   }
 }
 
@@ -231,6 +232,11 @@ img {
   }
 } 
 */
+
+.container-typewriter {
+  max-width: 800px;
+  text-align: justify;
+}
 
 #typewriter {
   font-family: monospace;
