@@ -43,7 +43,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={lolo_logo} alt="LoLo Logo" />
+        <div className='container-typewriter'>
         <p id="typewriter"></p>
+        </div>
         <button type="submit" onClick={redirect_git}>Git-Server</button>
         <button type="submit" onClick={redirect_doku}>Dokumentation</button>
         <button type="submit" onClick={redirect_lolo}>Lore Lorentz Schule</button>
