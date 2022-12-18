@@ -195,6 +195,7 @@ img {
 
 /* TypeWriter Animation Style */
 
+/*
 .button_reveal {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 30%;
@@ -229,12 +230,13 @@ img {
     width: 90%;
   }
 } 
+*/
 
 #typewriter {
   font-family: monospace;
   margin-bottom: 60px;
   padding-left: 40px;
   padding-right: 40px;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(9px + 2vmin);
 }
 

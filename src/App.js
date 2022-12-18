@@ -32,6 +32,10 @@ function typeWriter() {
   }
 }
 
+window.addEventListener('load', function() {
+  typeWriter();
+})
+
 
 
 function App() {
@@ -40,7 +44,6 @@ function App() {
       <header className="App-header">
         <img src={lolo_logo} alt="LoLo Logo" />
         <p id="typewriter"></p>
-        <button className='button_reveal' onClick={typeWriter}>Klick mich!</button>
         <button type="submit" onClick={redirect_git}>Git-Server</button>
         <button type="submit" onClick={redirect_doku}>Dokumentation</button>
         <button type="submit" onClick={redirect_lolo}>Lore Lorentz Schule</button>
