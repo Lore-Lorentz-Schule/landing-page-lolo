@@ -15,7 +15,7 @@
 
 /* General Header Design */
 .App-header {
-  background-color: #212224;
+  background-color: #131314;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -64,22 +64,22 @@ img {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 30%;
-  background:#605f669c;
-  border:2.9px solid #626466;
-  border-radius:2px;
-  cursor:pointer;
+  background: #212c3f;
+  border:2.9px solid #212c3f;
+  border-radius: 30px;
+  cursor: pointer;
   color:rgb(255, 255, 255);
-  font-size:24px;
-  padding-top:10px;
-  padding-bottom:10px;
+  font-size: 24px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   transition: all 0.3s;
-  margin-top:4px;
+  margin-top: 4px;
   margin-bottom: 10px;
-  font-weight:700;
+  font-weight: 700;
   text-align: center;
 
 }
-[type="submit"]:hover { background:#706f779c; }
+[type="submit"]:hover { background:#2f4366; }
 
 @media screen and (max-width: 800px) {
   [type="submit"] {
@@ -100,7 +100,7 @@ img {
 .footer-dark {
   padding:20px 0;
   color:#f0f9ff;
-  background-color: #212224f5;
+  background-color: #191b1d;
 }
 
 .footer-dark h3 {
