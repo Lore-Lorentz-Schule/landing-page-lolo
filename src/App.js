@@ -1,9 +1,10 @@
+// Lang lebe die 12NP!
+// 28.03.2023
+// Aaron und Tim
+
 import './App.css';
 import './Buttons.css'
 import 'animate.css';
-
-
-
 
 function App() {
   return (
